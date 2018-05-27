@@ -402,57 +402,11 @@ hr {
     color: #333;
 }
 
-
-.order-history {
-    display: flex;
-    flex-direction: column;
-    margin: 20px;
-    width: 100%;
-}
-
-.order-history .pills {
-    padding: 20px;
-}
-
-.order-details.order-details-btn:first-child {
-    padding: 10px 57px;
-}
-
-.order-details .order-date {
-    margin: 0;
-}
-
 .home {
     display: flex;
     flex-direction: column;
     margin-top: 0;
     height: 100%;
-}
-
-@-webkit-keyframes pop-in {
-    0% {
-        opacity: 0;
-        -webkit-transform: translateY(-4rem);
-        transform: translateY(-4rem);
-    }
-    100% {
-        opacity: 1;
-        -webkit-transform: none;
-        transform: none;
-    }
-}
-
-@keyframes pop-in {
-    0% {
-        opacity: 0;
-        -webkit-transform: translateY(-4rem);
-        transform: translateY(-4rem);
-    }
-    100% {
-        opacity: 1;
-        -webkit-transform: none;
-        transform: none;
-    }
 }
 
 .home .landing {
@@ -507,10 +461,7 @@ hr {
         width: 75%;
         padding: 10px 35px;
     }
-    .order-history {
-        margin: 30px;
-        width: 100%;
-    }
+    
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
@@ -519,10 +470,7 @@ hr {
         width: 60%;
         padding: 10px 35px;
     }
-    .order-history {
-        margin: 40px;
-        width: 80%;
-    }
+    
     .home .landing h1 {
         font-size: 2.2em;
     }
@@ -533,20 +481,13 @@ hr {
         width: 60%;
         padding: 20px 50px;
     }
-    .order-history {
-        margin: 50px;
-        width: 60%;
-    }
     .home .landing h1 {
         font-size: 2.2em;
     }
 }
 
 @media (min-width: 992px) {
-    .order-history {
-        margin: 50px;
-        width: 60%;
-    }
+    
     .home .landing h1 {
         font-size: 3em;
     }
