@@ -1,0 +1,74 @@
+form {
+    padding: 20px 0 10px;
+}
+
+form label {
+    color: #343a40;
+    font-weight: 300;
+    font-size: 1.15em;
+}
+
+
+.form-input {
+    color: darkgray;
+    display: flex;
+    margin-bottom: 30px;
+    flex-direction: column;
+}
+
+.form-input input:not([type="checkbox"]) {
+    border: 0;
+    color: #333;
+    font-size: 1em;
+    border-bottom: 1px solid darkgray;
+    background-color: inherit;
+    height: 30px;
+    outline: none;
+}
+
+
+.form-input textarea {
+    font-size: 1em;
+    border-radius: 3px;
+    font-family: Roboto, "Helvetica Neue", Arial, sans-serif;
+    border: 1px solid darkgray;
+    background-color: transparent;
+    outline: none;
+    margin-top: 12px;
+}
+
+.form-input textarea:focus {
+    outline: none;
+}
+
+.input-info {
+    font-size: 0.75em;
+    color: #989ea2;
+}
+
+.form-extra-info a {
+    color: #4CAF50;
+}
+
+.form-extra-info a:hover,
+.form-extra-info a:focus,
+.form-extra-info a:active {
+    color: #449d48;
+    transition: color 0.5s;
+}
+
+select {
+    padding: 0.3em;
+    outline: none;
+    border: 0;
+    /* font-size: 0.9em; */
+    padding-left: 0em;
+    background-color: inherit;
+}
+
+
+option {
+    outline: none;
+    padding-left: 0em;
+}
+
